@@ -1,15 +1,15 @@
 //
-//  CoinySDKTests.swift
-//  CoinySDKTests
+//  SampleTests.swift
+//  SampleTests
 //
 //  Created by KEMAL KOCABIYIK on 12.07.2018.
 //  Copyright © 2018 KEMAL KOCABIYIK. All rights reserved.
 //
 
 import XCTest
-@testable import CoinySDK
+@testable import Sample
 
-class CoinySDKTests: XCTestCase {
+class SampleTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -22,7 +22,6 @@ class CoinySDKTests: XCTestCase {
     }
     
     func testExample() {
-        Coiny.initialize(appId: "08d5e7c5-efb7-9b6d-8986-8682d8132701", appSecret: "7mrlet01mn5NPB3PhcYX13l8G5xRX8/vR87mryZph/E=")
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }

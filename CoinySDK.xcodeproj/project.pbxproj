@@ -10,6 +10,24 @@
 		FB70E3A120F75A3B00FEA3A2 /* CoinySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB70E39720F75A3B00FEA3A2 /* CoinySDK.framework */; };
 		FB70E3A620F75A3B00FEA3A2 /* CoinySDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB70E3A520F75A3B00FEA3A2 /* CoinySDKTests.swift */; };
 		FB70E3A820F75A3B00FEA3A2 /* CoinySDK.h in Headers */ = {isa = PBXBuildFile; fileRef = FB70E39A20F75A3B00FEA3A2 /* CoinySDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB70E3B220F76E3300FEA3A2 /* Coiny.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB70E3B120F76E3300FEA3A2 /* Coiny.swift */; };
+		FBC0136C20F772890030D1E3 /* CoinyLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC0136B20F772890030D1E3 /* CoinyLoginViewController.swift */; };
+		FBC0136E20F777FD0030D1E3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC0136D20F777FD0030D1E3 /* Constants.swift */; };
+		FBC013BA20F79E980030D1E3 /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC013B920F79E980030D1E3 /* URL+Extensions.swift */; };
+		FBC013BC20F79EA70030D1E3 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC013BB20F79EA70030D1E3 /* String+Extensions.swift */; };
+		FBC013BF20F7AF820030D1E3 /* CoinyApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC013BE20F7AF820030D1E3 /* CoinyApiRequest.swift */; };
+		FBC013CE20F7BF9C0030D1E3 /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC013C320F7BF9C0030D1E3 /* BaseResponse.swift */; };
+		FBC013CF20F7BF9C0030D1E3 /* Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC013C420F7BF9C0030D1E3 /* Price.swift */; };
+		FBC013D020F7BF9C0030D1E3 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC013C520F7BF9C0030D1E3 /* Order.swift */; };
+		FBC013D120F7BF9C0030D1E3 /* BankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC013C620F7BF9C0030D1E3 /* BankAccount.swift */; };
+		FBC013D320F7BF9C0030D1E3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC013C820F7BF9C0030D1E3 /* User.swift */; };
+		FBC013D520F7BF9C0030D1E3 /* PaymentMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC013CA20F7BF9C0030D1E3 /* PaymentMethod.swift */; };
+		FBC013D620F7BF9C0030D1E3 /* TradePair.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC013CB20F7BF9C0030D1E3 /* TradePair.swift */; };
+		FBC013D720F7BF9C0030D1E3 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC013CC20F7BF9C0030D1E3 /* Transaction.swift */; };
+		FBC013D820F7BF9C0030D1E3 /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC013CD20F7BF9C0030D1E3 /* Wallet.swift */; };
+		FBC013DA20F7C8510030D1E3 /* DateFormatter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC013D920F7C8510030D1E3 /* DateFormatter+Extensions.swift */; };
+		FBC013DC20F806B30030D1E3 /* Dictionary+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC013DB20F806B30030D1E3 /* Dictionary+Extensions.swift */; };
+		FBC013DE20F80FD60030D1E3 /* Encodable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC013DD20F80FD60030D1E3 /* Encodable+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +47,24 @@
 		FB70E3A020F75A3B00FEA3A2 /* CoinySDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinySDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB70E3A520F75A3B00FEA3A2 /* CoinySDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinySDKTests.swift; sourceTree = "<group>"; };
 		FB70E3A720F75A3B00FEA3A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB70E3B120F76E3300FEA3A2 /* Coiny.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coiny.swift; sourceTree = "<group>"; };
+		FBC0136B20F772890030D1E3 /* CoinyLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinyLoginViewController.swift; sourceTree = "<group>"; };
+		FBC0136D20F777FD0030D1E3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FBC013B920F79E980030D1E3 /* URL+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extensions.swift"; sourceTree = "<group>"; };
+		FBC013BB20F79EA70030D1E3 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		FBC013BE20F7AF820030D1E3 /* CoinyApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinyApiRequest.swift; sourceTree = "<group>"; };
+		FBC013C320F7BF9C0030D1E3 /* BaseResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		FBC013C420F7BF9C0030D1E3 /* Price.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Price.swift; sourceTree = "<group>"; };
+		FBC013C520F7BF9C0030D1E3 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		FBC013C620F7BF9C0030D1E3 /* BankAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankAccount.swift; sourceTree = "<group>"; };
+		FBC013C820F7BF9C0030D1E3 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FBC013CA20F7BF9C0030D1E3 /* PaymentMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentMethod.swift; sourceTree = "<group>"; };
+		FBC013CB20F7BF9C0030D1E3 /* TradePair.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TradePair.swift; sourceTree = "<group>"; };
+		FBC013CC20F7BF9C0030D1E3 /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		FBC013CD20F7BF9C0030D1E3 /* Wallet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wallet.swift; sourceTree = "<group>"; };
+		FBC013D920F7C8510030D1E3 /* DateFormatter+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extensions.swift"; sourceTree = "<group>"; };
+		FBC013DB20F806B30030D1E3 /* Dictionary+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extensions.swift"; sourceTree = "<group>"; };
+		FBC013DD20F80FD60030D1E3 /* Encodable+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encodable+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +107,14 @@
 		FB70E39920F75A3B00FEA3A2 /* CoinySDK */ = {
 			isa = PBXGroup;
 			children = (
+				FBC013C220F7BF9C0030D1E3 /* Models */,
+				FBC013B820F79E820030D1E3 /* Extensions */,
 				FB70E39A20F75A3B00FEA3A2 /* CoinySDK.h */,
 				FB70E39B20F75A3B00FEA3A2 /* Info.plist */,
+				FB70E3B120F76E3300FEA3A2 /* Coiny.swift */,
+				FBC0136B20F772890030D1E3 /* CoinyLoginViewController.swift */,
+				FBC0136D20F777FD0030D1E3 /* Constants.swift */,
+				FBC013BE20F7AF820030D1E3 /* CoinyApiRequest.swift */,
 			);
 			path = CoinySDK;
 			sourceTree = "<group>";
@@ -84,6 +126,34 @@
 				FB70E3A720F75A3B00FEA3A2 /* Info.plist */,
 			);
 			path = CoinySDKTests;
+			sourceTree = "<group>";
+		};
+		FBC013B820F79E820030D1E3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FBC013B920F79E980030D1E3 /* URL+Extensions.swift */,
+				FBC013BB20F79EA70030D1E3 /* String+Extensions.swift */,
+				FBC013D920F7C8510030D1E3 /* DateFormatter+Extensions.swift */,
+				FBC013DB20F806B30030D1E3 /* Dictionary+Extensions.swift */,
+				FBC013DD20F80FD60030D1E3 /* Encodable+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FBC013C220F7BF9C0030D1E3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FBC013C320F7BF9C0030D1E3 /* BaseResponse.swift */,
+				FBC013C420F7BF9C0030D1E3 /* Price.swift */,
+				FBC013C520F7BF9C0030D1E3 /* Order.swift */,
+				FBC013C620F7BF9C0030D1E3 /* BankAccount.swift */,
+				FBC013C820F7BF9C0030D1E3 /* User.swift */,
+				FBC013CA20F7BF9C0030D1E3 /* PaymentMethod.swift */,
+				FBC013CB20F7BF9C0030D1E3 /* TradePair.swift */,
+				FBC013CC20F7BF9C0030D1E3 /* Transaction.swift */,
+				FBC013CD20F7BF9C0030D1E3 /* Wallet.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +218,7 @@
 				TargetAttributes = {
 					FB70E39620F75A3B00FEA3A2 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 					FB70E39F20F75A3B00FEA3A2 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -194,6 +265,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBC013BC20F79EA70030D1E3 /* String+Extensions.swift in Sources */,
+				FBC013CF20F7BF9C0030D1E3 /* Price.swift in Sources */,
+				FBC013D720F7BF9C0030D1E3 /* Transaction.swift in Sources */,
+				FB70E3B220F76E3300FEA3A2 /* Coiny.swift in Sources */,
+				FBC013D520F7BF9C0030D1E3 /* PaymentMethod.swift in Sources */,
+				FBC013D020F7BF9C0030D1E3 /* Order.swift in Sources */,
+				FBC013DA20F7C8510030D1E3 /* DateFormatter+Extensions.swift in Sources */,
+				FBC013D620F7BF9C0030D1E3 /* TradePair.swift in Sources */,
+				FBC013DC20F806B30030D1E3 /* Dictionary+Extensions.swift in Sources */,
+				FBC013BA20F79E980030D1E3 /* URL+Extensions.swift in Sources */,
+				FBC0136C20F772890030D1E3 /* CoinyLoginViewController.swift in Sources */,
+				FBC013CE20F7BF9C0030D1E3 /* BaseResponse.swift in Sources */,
+				FBC013D320F7BF9C0030D1E3 /* User.swift in Sources */,
+				FBC013DE20F80FD60030D1E3 /* Encodable+Extensions.swift in Sources */,
+				FBC013D120F7BF9C0030D1E3 /* BankAccount.swift in Sources */,
+				FBC0136E20F777FD0030D1E3 /* Constants.swift in Sources */,
+				FBC013D820F7BF9C0030D1E3 /* Wallet.swift in Sources */,
+				FBC013BF20F7AF820030D1E3 /* CoinyApiRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +428,7 @@
 		FB70E3AC20F75A3B00FEA3A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -347,6 +437,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = CoinySDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -355,6 +446,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.coiny.CoinySDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -363,6 +455,7 @@
 		FB70E3AD20F75A3B00FEA3A2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -371,6 +464,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = CoinySDK/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -387,6 +481,7 @@
 		FB70E3AF20F75A3B00FEA3A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CoinySDKTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -404,6 +499,7 @@
 		FB70E3B020F75A3B00FEA3A2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = CoinySDKTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
