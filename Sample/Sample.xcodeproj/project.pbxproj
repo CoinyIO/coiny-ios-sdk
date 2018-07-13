@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FB48EDAE20F827CB00DE7041 /* CoinySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB48EDAB20F827C600DE7041 /* CoinySDK.framework */; };
-		FB48EDAF20F827CB00DE7041 /* CoinySDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FB48EDAB20F827C600DE7041 /* CoinySDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FBC0137C20F7832A0030D1E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC0137B20F7832A0030D1E3 /* AppDelegate.swift */; };
 		FBC0137E20F7832A0030D1E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC0137D20F7832A0030D1E3 /* ViewController.swift */; };
 		FBC0138120F7832A0030D1E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC0137F20F7832A0030D1E3 /* Main.storyboard */; };
@@ -19,27 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FB48EDAA20F827C600DE7041 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FB48EDA520F827C600DE7041 /* CoinySDK.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = FB70E39720F75A3B00FEA3A2;
-			remoteInfo = CoinySDK;
-		};
-		FB48EDAC20F827C600DE7041 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FB48EDA520F827C600DE7041 /* CoinySDK.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = FB70E3A020F75A3B00FEA3A2;
-			remoteInfo = CoinySDKTests;
-		};
-		FB48EDB020F827CB00DE7041 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FB48EDA520F827C600DE7041 /* CoinySDK.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = FB70E39620F75A3B00FEA3A2;
-			remoteInfo = CoinySDK;
-		};
 		FBC0138D20F7832D0030D1E3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FBC0137020F7832A0030D1E3 /* Project object */;
@@ -63,7 +40,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				FB48EDAF20F827CB00DE7041 /* CoinySDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -71,7 +47,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		FB48EDA520F827C600DE7041 /* CoinySDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CoinySDK.xcodeproj; path = ../CoinySDK/CoinySDK.xcodeproj; sourceTree = "<group>"; };
 		FBC0137820F7832A0030D1E3 /* Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBC0137B20F7832A0030D1E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBC0137D20F7832A0030D1E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -92,7 +67,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB48EDAE20F827CB00DE7041 /* CoinySDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,19 +87,9 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FB48EDA620F827C600DE7041 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FB48EDAB20F827C600DE7041 /* CoinySDK.framework */,
-				FB48EDAD20F827C600DE7041 /* CoinySDKTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		FBC0136F20F7832A0030D1E3 = {
 			isa = PBXGroup;
 			children = (
-				FB48EDA520F827C600DE7041 /* CoinySDK.xcodeproj */,
 				FBC0137A20F7832A0030D1E3 /* Sample */,
 				FBC0138F20F7832D0030D1E3 /* SampleTests */,
 				FBC0139A20F7832D0030D1E3 /* SampleUITests */,
@@ -197,7 +161,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				FB48EDB120F827CB00DE7041 /* PBXTargetDependency */,
 			);
 			name = Sample;
 			productName = Sample;
@@ -274,12 +237,6 @@
 			mainGroup = FBC0136F20F7832A0030D1E3;
 			productRefGroup = FBC0137920F7832A0030D1E3 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = FB48EDA620F827C600DE7041 /* Products */;
-					ProjectRef = FB48EDA520F827C600DE7041 /* CoinySDK.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				FBC0137720F7832A0030D1E3 /* Sample */,
@@ -288,23 +245,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		FB48EDAB20F827C600DE7041 /* CoinySDK.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = CoinySDK.framework;
-			remoteRef = FB48EDAA20F827C600DE7041 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		FB48EDAD20F827C600DE7041 /* CoinySDKTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = CoinySDKTests.xctest;
-			remoteRef = FB48EDAC20F827C600DE7041 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		FBC0137620F7832A0030D1E3 /* Resources */ = {
@@ -362,11 +302,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FB48EDB120F827CB00DE7041 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CoinySDK;
-			targetProxy = FB48EDB020F827CB00DE7041 /* PBXContainerItemProxy */;
-		};
 		FBC0138E20F7832D0030D1E3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FBC0137720F7832A0030D1E3 /* Sample */;

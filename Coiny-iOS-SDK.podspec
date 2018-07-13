@@ -80,9 +80,9 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-s.source = { :path => '.' }
-  #s.source       = { :git => "https://github.com/CoinyIO/coiny-ios-sdk.git", :tag => "0.0.1-alpha" }
-  s.swift_version = "4.0"
+#s.source = { :path => '.' }
+  s.source       = { :git => "https://github.com/CoinyIO/coiny-ios-sdk.git", :tag => "0.0.1-alpha" }
+  s.swift_version = "4.2"
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -92,7 +92,7 @@ s.source = { :path => '.' }
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "CoinySDK"
+  s.source_files  = "CoinySDK/**/*.{h,m,swift}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
