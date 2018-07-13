@@ -95,3 +95,7 @@ Just like above you may use parameters as strongly typed objects too.
 
  - Detailed models description
  - Reach access_token in the app
+ - Deep linking
+ - Handling error messages.
+ - Handling revoked access.
+ - Debug mode.
