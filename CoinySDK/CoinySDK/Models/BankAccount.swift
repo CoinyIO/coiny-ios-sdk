@@ -9,9 +9,14 @@
 import UIKit
 
 public struct BankAccountRequest: Codable {
-    var iban: String!
-    var accountType: String!
-    var name: String!
+    var iban: String
+    var accountType: AccountType
+    var name: String
+    public init(name : String ,iban : String , accountType : AccountType){
+        self.name = name
+        self.accountType = accountType
+        self.iban = iban
+    }
 }
 
 
@@ -21,4 +26,9 @@ public struct BankAccountResponse: BaseModel {
     var name: String
     var accountType: String
     var iban: String
+}
+
+public enum AccountType : String, Codable{
+    case iban = "Iban"
+    case accountNumber = "AccountNumber"
 }

@@ -9,12 +9,21 @@
 import UIKit
 
 public class UserRequest: Codable {
-    var firstname: String!
-    var lastname: String!
-    var email: String!
-    var password: String!
-    var confirmPassword: String!
-    var phoneNumber: String!
+    var firstname: String
+    var lastname: String
+    var email: String
+    var password: String
+    var confirmPassword: String
+    var phoneNumber: String
+    
+    public init(firstname : String , lastname : String , email : String , password : String , confirmPassword : String , phoneNumber : String){
+        self.firstname = firstname
+        self.lastname = lastname
+        self.email = email
+        self.password = password
+        self.confirmPassword = confirmPassword
+        self.phoneNumber = phoneNumber
+    }
 }
 
 public struct UserResponse: BaseModel {

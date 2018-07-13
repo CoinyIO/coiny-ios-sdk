@@ -8,10 +8,6 @@
 
 import Foundation
 
-struct WalletRequest: Codable {
-
-}
-
 public struct WalletResponse : BaseModel {
     var id: String
     var createDate: Date?

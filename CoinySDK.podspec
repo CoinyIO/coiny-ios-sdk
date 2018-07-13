@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
   s.swift_version = "4.2"
   s.source_files  = "CoinySDK/CoinySDK/**/*.{h,m,swift}"
   s.exclude_files = "Classes/Exclude"
-  s.social_media_url = 'https://twitter.com/coinyio'
+  s.social_media_url = 'https://twitter.com/coiny_io'
 
 end
