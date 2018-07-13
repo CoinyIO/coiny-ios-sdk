@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/coinyio/coiny-ios-sdk"
   s.license          = 'MIT'
   s.author             = { "Kemal Kocabiyik" => "kemal@coiny.io" }
-  s.platform     = :ios, "7.0"
+  s.platform     = :ios, "9.0"
   s.source           = { :git => "https://github.com/coinyio/coiny-ios-sdk.git", :tag => s.version.to_s }
   s.swift_version = "4.2"
   s.source_files  = "CoinySDK/CoinySDK/**/*.{h,m,swift}"
