@@ -54,7 +54,7 @@ public class CoinyLoginViewController : UIViewController , UIWebViewDelegate{
 
         if(auth_token != nil){
             self.done()
-            return false;
+            self.delegate?.coinyLoginDidGetToken(authToken: (auth_token?.value)!)
         }
         return true
     }

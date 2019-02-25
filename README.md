@@ -18,13 +18,13 @@ First of all you need to retrieve API Key and API Secret from Coiny. To add API 
 
 1. Open your AppDelegate and add the following
 
-`Coiny.initialize(appId: "your-app-id", appSecret: "your-app-secret")`
+`Coiny.initialize(appId: "your-app-id")`
 
 If you want to test it on the sandbox environment:
 
-`Coiny.initialize(appId: "your-app-id", appSecret: "your-app-secret" ,isDevelopment : true)`
+`Coiny.initialize(appId: "your-app-id" ,isDevelopment : true)`
 
-2. To authorize a user for your application: 
+1. To authorize a user for your application: 
 
 `Coiny.login(presentingViewController: self, delegate: self)`
 
