@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB44068C22240D0000A3FF9B /* CoinySDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = FB44068B22240D0000A3FF9B /* CoinySDK.podspec */; };
 		FB70E3A120F75A3B00FEA3A2 /* CoinySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB70E39720F75A3B00FEA3A2 /* CoinySDK.framework */; };
 		FB70E3A620F75A3B00FEA3A2 /* CoinySDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB70E3A520F75A3B00FEA3A2 /* CoinySDKTests.swift */; };
 		FB70E3A820F75A3B00FEA3A2 /* CoinySDK.h in Headers */ = {isa = PBXBuildFile; fileRef = FB70E39A20F75A3B00FEA3A2 /* CoinySDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FB44068B22240D0000A3FF9B /* CoinySDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CoinySDK.podspec; path = ../../CoinySDK.podspec; sourceTree = "<group>"; };
 		FB70E39720F75A3B00FEA3A2 /* CoinySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoinySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB70E39A20F75A3B00FEA3A2 /* CoinySDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoinySDK.h; sourceTree = "<group>"; };
 		FB70E39B20F75A3B00FEA3A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 		FB70E39920F75A3B00FEA3A2 /* CoinySDK */ = {
 			isa = PBXGroup;
 			children = (
+				FB44068B22240D0000A3FF9B /* CoinySDK.podspec */,
 				FB8562DB2223EDF200DF02CF /* Shared */,
 				FBC013C220F7BF9C0030D1E3 /* Models */,
 				FBC013B820F79E820030D1E3 /* Extensions */,
@@ -259,6 +262,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB44068C22240D0000A3FF9B /* CoinySDK.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
