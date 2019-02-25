@@ -99,7 +99,7 @@ public extension KeyedEncodingContainerProtocol where Key == JSONCodingKeys {
                 try encode(value, forKey: key)
             case let value as Double:
                 try encode(value, forKey: key)
-            case let value as CGFloat:
+            case let value as Float:
                 try encode(value, forKey: key)
             case let value as Dictionary<String, Any>:
                 try encode(value, forKey: key)
@@ -142,7 +142,7 @@ public extension UnkeyedEncodingContainer {
                 try encode(value)
             case let value as Double:
                 try encode(value)
-            case let value as CGFloat:
+            case let value as Float:
                 try encode(value)
             case let value as Dictionary<String, Any>:
                 try encode(value)

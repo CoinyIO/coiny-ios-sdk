@@ -22,7 +22,6 @@ class CoinySDKTests: XCTestCase {
     }
     
     func testExample() {
-        Coiny.initialize(appId: "08d5e7c5-efb7-9b6d-8986-8682d8132701", appSecret: "7mrlet01mn5NPB3PhcYX13l8G5xRX8/vR87mryZph/E=")
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }

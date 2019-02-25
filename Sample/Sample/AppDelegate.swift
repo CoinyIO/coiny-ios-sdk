@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import CoinySDK
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
     
-        Coiny.initialize(appId: "08d5e7f5-4b49-4bb4-be00-7d3a60b52ce1", appSecret: "DeZ79FN+4/6HWI7Xl4eE14/e3vxkJ4jQ6CmsZu3GxYk=",isDevelopment: true)
+        Coiny.initialize(appId: "", isDevelopment: true)
         // Override point for customization after application launch.
         return true
     }
@@ -44,6 +43,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        
+        let authToken = Coiny.handleUrl(url : url)
+        
+        return true
+    }
 
 }
 

@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import CoinySDK
 
 class ViewController: UIViewController , CoinyLoginViewDelegate {
 
@@ -43,6 +42,9 @@ class ViewController: UIViewController , CoinyLoginViewDelegate {
     }
     
     func coinyLoginDidFail(error: Error?) {
+        
+    }
+    func coinyLoginDidGetToken(authToken: String) {
         
     }
     

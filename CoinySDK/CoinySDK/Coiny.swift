@@ -7,24 +7,26 @@
 //
 
 import Foundation
+import UIKit
 
 
 public class Coiny {
     
     static var appId = "";
-    static var appSecret = "";
     static var isDevelopment = false
+    private static var _authToken : String?
+    public static var authToken : String? = {return _authToken}()
     
-    public static func initialize(appId : String ,appSecret : String , isDevelopment : Bool = false){
+    public static func initialize(appId : String , isDevelopment : Bool = true){
         self.appId = appId
-        self.appSecret = appSecret
         self.isDevelopment = isDevelopment
         UserDefaults.standard.setValue(self.appId, forKey: CoinyConstants.appId)
-        UserDefaults.standard.setValue(self.appSecret, forKey: CoinyConstants.appSecret)
         if(isDevelopment){
-            UserDefaults.standard.setValue("https://api-coiny-dev.azurewebsites.net/", forKey: CoinyConstants.url)
+            UserDefaults.standard.setValue("https://oauth-coiny-dev.azurewebsites.net/", forKey: CoinyConstants.oauthUrl)
+            UserDefaults.standard.setValue("https://api-coiny-dev.azurewebsites.net/", forKey: CoinyConstants.apiUrl)
         }else{
-            UserDefaults.standard.setValue("https://api.coiny.io/", forKey: CoinyConstants.url)
+            UserDefaults.standard.setValue("https://oauth.coiny.io/", forKey: CoinyConstants.oauthUrl)
+            UserDefaults.standard.setValue("https://api.coiny.io/", forKey: CoinyConstants.apiUrl)
         }
     }
     
@@ -42,6 +44,12 @@ public class Coiny {
         }, failureHandler: { (error) in
             
         })
+    }
+    
+    public static func handleUrl(url : URL) -> String? {
+        let auth_token = url.queryParameters?.first( where : { $0.key == "auth_token" } )
+        _authToken = auth_token?.value
+        return _authToken
     }
     
     

@@ -54,7 +54,7 @@ public class CoinyApiRequest {
     
     private static func createUrlRequest(path : String, httpMethod: String , parameters : Any!) -> NSMutableURLRequest{
         
-        let urlString = "\(String(describing: UserDefaults.standard.value(forKey:CoinyConstants.url)!))\(path)"
+        let urlString = "\(String(describing: UserDefaults.standard.value(forKey:CoinyConstants.apiUrl)!))\(path)"
         let url = URL(string: urlString)!
         
         let request = NSMutableURLRequest(url: url)

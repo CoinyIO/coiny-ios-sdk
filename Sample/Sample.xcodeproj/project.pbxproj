@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB5B36602209BAD4001CA0FC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B364A2209BAD4001CA0FC /* Constants.swift */; };
+		FB5B36612209BAD4001CA0FC /* Coiny.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B364B2209BAD4001CA0FC /* Coiny.swift */; };
+		FB5B36622209BAD4001CA0FC /* CoinyApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B364C2209BAD4001CA0FC /* CoinyApiRequest.swift */; };
+		FB5B36632209BAD4001CA0FC /* CoinyLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B364D2209BAD4001CA0FC /* CoinyLoginViewController.swift */; };
+		FB5B36642209BAD4001CA0FC /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B364F2209BAD4001CA0FC /* BaseResponse.swift */; };
+		FB5B36652209BAD4001CA0FC /* Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B36502209BAD4001CA0FC /* Price.swift */; };
+		FB5B36662209BAD4001CA0FC /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B36512209BAD4001CA0FC /* Order.swift */; };
+		FB5B36672209BAD4001CA0FC /* BankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B36522209BAD4001CA0FC /* BankAccount.swift */; };
+		FB5B36682209BAD4001CA0FC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B36532209BAD4001CA0FC /* User.swift */; };
+		FB5B36692209BAD4001CA0FC /* PaymentMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B36542209BAD4001CA0FC /* PaymentMethod.swift */; };
+		FB5B366A2209BAD4001CA0FC /* TradePair.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B36552209BAD4001CA0FC /* TradePair.swift */; };
+		FB5B366B2209BAD4001CA0FC /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B36562209BAD4001CA0FC /* Transaction.swift */; };
+		FB5B366C2209BAD4001CA0FC /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B36572209BAD4001CA0FC /* Wallet.swift */; };
+		FB5B366D2209BAD4001CA0FC /* DateFormatter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B36592209BAD4001CA0FC /* DateFormatter+Extensions.swift */; };
+		FB5B366E2209BAD5001CA0FC /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B365A2209BAD4001CA0FC /* String+Extensions.swift */; };
+		FB5B366F2209BAD5001CA0FC /* Encodable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B365B2209BAD4001CA0FC /* Encodable+Extensions.swift */; };
+		FB5B36702209BAD5001CA0FC /* Dictionary+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B365C2209BAD4001CA0FC /* Dictionary+Extensions.swift */; };
+		FB5B36712209BAD5001CA0FC /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5B365D2209BAD4001CA0FC /* URL+Extensions.swift */; };
+		FB8562E42223F3FD00DF02CF /* URLSchemeUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8562E12223F3FD00DF02CF /* URLSchemeUtilities.swift */; };
 		FBC0137C20F7832A0030D1E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC0137B20F7832A0030D1E3 /* AppDelegate.swift */; };
 		FBC0137E20F7832A0030D1E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC0137D20F7832A0030D1E3 /* ViewController.swift */; };
 		FBC0138120F7832A0030D1E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC0137F20F7832A0030D1E3 /* Main.storyboard */; };
@@ -17,6 +36,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		FB5B360C2209B980001CA0FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB5B36072209B980001CA0FC /* CoinySDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FB70E39720F75A3B00FEA3A2;
+			remoteInfo = CoinySDK;
+		};
+		FB5B360E2209B980001CA0FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB5B36072209B980001CA0FC /* CoinySDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FB70E3A020F75A3B00FEA3A2;
+			remoteInfo = CoinySDKTests;
+		};
 		FBC0138D20F7832D0030D1E3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FBC0137020F7832A0030D1E3 /* Project object */;
@@ -47,6 +80,28 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FB5B36072209B980001CA0FC /* CoinySDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CoinySDK.xcodeproj; path = ../CoinySDK/CoinySDK.xcodeproj; sourceTree = "<group>"; };
+		FB5B364A2209BAD4001CA0FC /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FB5B364B2209BAD4001CA0FC /* Coiny.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coiny.swift; sourceTree = "<group>"; };
+		FB5B364C2209BAD4001CA0FC /* CoinyApiRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinyApiRequest.swift; sourceTree = "<group>"; };
+		FB5B364D2209BAD4001CA0FC /* CoinyLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoinyLoginViewController.swift; sourceTree = "<group>"; };
+		FB5B364F2209BAD4001CA0FC /* BaseResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		FB5B36502209BAD4001CA0FC /* Price.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Price.swift; sourceTree = "<group>"; };
+		FB5B36512209BAD4001CA0FC /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		FB5B36522209BAD4001CA0FC /* BankAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankAccount.swift; sourceTree = "<group>"; };
+		FB5B36532209BAD4001CA0FC /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FB5B36542209BAD4001CA0FC /* PaymentMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentMethod.swift; sourceTree = "<group>"; };
+		FB5B36552209BAD4001CA0FC /* TradePair.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TradePair.swift; sourceTree = "<group>"; };
+		FB5B36562209BAD4001CA0FC /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		FB5B36572209BAD4001CA0FC /* Wallet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wallet.swift; sourceTree = "<group>"; };
+		FB5B36592209BAD4001CA0FC /* DateFormatter+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extensions.swift"; sourceTree = "<group>"; };
+		FB5B365A2209BAD4001CA0FC /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		FB5B365B2209BAD4001CA0FC /* Encodable+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Encodable+Extensions.swift"; sourceTree = "<group>"; };
+		FB5B365C2209BAD4001CA0FC /* Dictionary+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extensions.swift"; sourceTree = "<group>"; };
+		FB5B365D2209BAD4001CA0FC /* URL+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+Extensions.swift"; sourceTree = "<group>"; };
+		FB5B365E2209BAD4001CA0FC /* CoinySDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoinySDK.h; sourceTree = "<group>"; };
+		FB5B365F2209BAD4001CA0FC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB8562E12223F3FD00DF02CF /* URLSchemeUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSchemeUtilities.swift; sourceTree = "<group>"; };
 		FBC0137820F7832A0030D1E3 /* Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBC0137B20F7832A0030D1E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBC0137D20F7832A0030D1E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +142,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB5B36082209B980001CA0FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB5B360D2209B980001CA0FC /* CoinySDK.framework */,
+				FB5B360F2209B980001CA0FC /* CoinySDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB5B36492209BAD4001CA0FC /* CoinySDK */ = {
+			isa = PBXGroup;
+			children = (
+				FB8562E02223F3FD00DF02CF /* Shared */,
+				FB5B364A2209BAD4001CA0FC /* Constants.swift */,
+				FB5B364B2209BAD4001CA0FC /* Coiny.swift */,
+				FB5B364C2209BAD4001CA0FC /* CoinyApiRequest.swift */,
+				FB5B364D2209BAD4001CA0FC /* CoinyLoginViewController.swift */,
+				FB5B364E2209BAD4001CA0FC /* Models */,
+				FB5B36582209BAD4001CA0FC /* Extensions */,
+				FB5B365E2209BAD4001CA0FC /* CoinySDK.h */,
+				FB5B365F2209BAD4001CA0FC /* Info.plist */,
+			);
+			name = CoinySDK;
+			path = ../../CoinySDK/CoinySDK;
+			sourceTree = "<group>";
+		};
+		FB5B364E2209BAD4001CA0FC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FB5B364F2209BAD4001CA0FC /* BaseResponse.swift */,
+				FB5B36502209BAD4001CA0FC /* Price.swift */,
+				FB5B36512209BAD4001CA0FC /* Order.swift */,
+				FB5B36522209BAD4001CA0FC /* BankAccount.swift */,
+				FB5B36532209BAD4001CA0FC /* User.swift */,
+				FB5B36542209BAD4001CA0FC /* PaymentMethod.swift */,
+				FB5B36552209BAD4001CA0FC /* TradePair.swift */,
+				FB5B36562209BAD4001CA0FC /* Transaction.swift */,
+				FB5B36572209BAD4001CA0FC /* Wallet.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FB5B36582209BAD4001CA0FC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FB5B36592209BAD4001CA0FC /* DateFormatter+Extensions.swift */,
+				FB5B365A2209BAD4001CA0FC /* String+Extensions.swift */,
+				FB5B365B2209BAD4001CA0FC /* Encodable+Extensions.swift */,
+				FB5B365C2209BAD4001CA0FC /* Dictionary+Extensions.swift */,
+				FB5B365D2209BAD4001CA0FC /* URL+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FB8562E02223F3FD00DF02CF /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				FB8562E12223F3FD00DF02CF /* URLSchemeUtilities.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 		FBC0136F20F7832A0030D1E3 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +228,7 @@
 		FBC0137A20F7832A0030D1E3 /* Sample */ = {
 			isa = PBXGroup;
 			children = (
+				FB5B36492209BAD4001CA0FC /* CoinySDK */,
 				FBC0137B20F7832A0030D1E3 /* AppDelegate.swift */,
 				FBC0137D20F7832A0030D1E3 /* ViewController.swift */,
 				FBC0137F20F7832A0030D1E3 /* Main.storyboard */,
@@ -142,6 +260,7 @@
 		FBC013B520F783AA0030D1E3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FB5B36072209B980001CA0FC /* CoinySDK.xcodeproj */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -237,6 +356,12 @@
 			mainGroup = FBC0136F20F7832A0030D1E3;
 			productRefGroup = FBC0137920F7832A0030D1E3 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FB5B36082209B980001CA0FC /* Products */;
+					ProjectRef = FB5B36072209B980001CA0FC /* CoinySDK.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				FBC0137720F7832A0030D1E3 /* Sample */,
@@ -245,6 +370,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FB5B360D2209B980001CA0FC /* CoinySDK.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CoinySDK.framework;
+			remoteRef = FB5B360C2209B980001CA0FC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FB5B360F2209B980001CA0FC /* CoinySDKTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CoinySDKTests.xctest;
+			remoteRef = FB5B360E2209B980001CA0FC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		FBC0137620F7832A0030D1E3 /* Resources */ = {
@@ -278,8 +420,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB5B366C2209BAD4001CA0FC /* Wallet.swift in Sources */,
+				FB5B366B2209BAD4001CA0FC /* Transaction.swift in Sources */,
+				FB5B36612209BAD4001CA0FC /* Coiny.swift in Sources */,
+				FB5B36652209BAD4001CA0FC /* Price.swift in Sources */,
+				FB8562E42223F3FD00DF02CF /* URLSchemeUtilities.swift in Sources */,
+				FB5B366A2209BAD4001CA0FC /* TradePair.swift in Sources */,
 				FBC0137E20F7832A0030D1E3 /* ViewController.swift in Sources */,
+				FB5B366D2209BAD4001CA0FC /* DateFormatter+Extensions.swift in Sources */,
+				FB5B36662209BAD4001CA0FC /* Order.swift in Sources */,
+				FB5B36702209BAD5001CA0FC /* Dictionary+Extensions.swift in Sources */,
+				FB5B36622209BAD4001CA0FC /* CoinyApiRequest.swift in Sources */,
 				FBC0137C20F7832A0030D1E3 /* AppDelegate.swift in Sources */,
+				FB5B36642209BAD4001CA0FC /* BaseResponse.swift in Sources */,
+				FB5B36672209BAD4001CA0FC /* BankAccount.swift in Sources */,
+				FB5B366E2209BAD5001CA0FC /* String+Extensions.swift in Sources */,
+				FB5B366F2209BAD5001CA0FC /* Encodable+Extensions.swift in Sources */,
+				FB5B36602209BAD4001CA0FC /* Constants.swift in Sources */,
+				FB5B36692209BAD4001CA0FC /* PaymentMethod.swift in Sources */,
+				FB5B36712209BAD5001CA0FC /* URL+Extensions.swift in Sources */,
+				FB5B36632209BAD4001CA0FC /* CoinyLoginViewController.swift in Sources */,
+				FB5B36682209BAD4001CA0FC /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,7 +615,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GJ77XX22QL;
 				INFOPLIST_FILE = Sample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -472,7 +635,9 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GJ77XX22QL;
 				INFOPLIST_FILE = Sample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

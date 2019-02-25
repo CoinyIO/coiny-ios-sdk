@@ -11,6 +11,7 @@ import Foundation
 struct CoinyConstants {
     static let appId = "io.coiny.ios-sdk.appId"
     static let appSecret = "io.coiny.ios-sdk.appSecret"
-    static let url = "io.coiny.ios-sdk.url"
+    static let oauthUrl = "io.coiny.ios-sdk.oauthUrl"
+    static let apiUrl = "io.coiny.ios-sdk.apiUrl"
     static let accessToken = "io.coiny.ios-sdk.accessToken"
 }

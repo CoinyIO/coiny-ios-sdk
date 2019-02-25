@@ -5,6 +5,7 @@
 //  Copyright © 2018 Kemal Kocabiyik. All rights reserved.
 //
 
+import Foundation
 
 public struct PaymentMethodResponse: BaseModel {
     var id: String

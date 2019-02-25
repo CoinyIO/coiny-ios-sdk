@@ -11,6 +11,7 @@
 		FB70E3A620F75A3B00FEA3A2 /* CoinySDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB70E3A520F75A3B00FEA3A2 /* CoinySDKTests.swift */; };
 		FB70E3A820F75A3B00FEA3A2 /* CoinySDK.h in Headers */ = {isa = PBXBuildFile; fileRef = FB70E39A20F75A3B00FEA3A2 /* CoinySDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB70E3B220F76E3300FEA3A2 /* Coiny.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB70E3B120F76E3300FEA3A2 /* Coiny.swift */; };
+		FB8562DD2223EE0900DF02CF /* URLSchemeUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB8562DC2223EE0900DF02CF /* URLSchemeUtilities.swift */; };
 		FBC0136C20F772890030D1E3 /* CoinyLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC0136B20F772890030D1E3 /* CoinyLoginViewController.swift */; };
 		FBC0136E20F777FD0030D1E3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC0136D20F777FD0030D1E3 /* Constants.swift */; };
 		FBC013BA20F79E980030D1E3 /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC013B920F79E980030D1E3 /* URL+Extensions.swift */; };
@@ -48,6 +49,7 @@
 		FB70E3A520F75A3B00FEA3A2 /* CoinySDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinySDKTests.swift; sourceTree = "<group>"; };
 		FB70E3A720F75A3B00FEA3A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB70E3B120F76E3300FEA3A2 /* Coiny.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coiny.swift; sourceTree = "<group>"; };
+		FB8562DC2223EE0900DF02CF /* URLSchemeUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSchemeUtilities.swift; sourceTree = "<group>"; };
 		FBC0136B20F772890030D1E3 /* CoinyLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinyLoginViewController.swift; sourceTree = "<group>"; };
 		FBC0136D20F777FD0030D1E3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		FBC013B920F79E980030D1E3 /* URL+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extensions.swift"; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 		FB70E39920F75A3B00FEA3A2 /* CoinySDK */ = {
 			isa = PBXGroup;
 			children = (
+				FB8562DB2223EDF200DF02CF /* Shared */,
 				FBC013C220F7BF9C0030D1E3 /* Models */,
 				FBC013B820F79E820030D1E3 /* Extensions */,
 				FB70E39A20F75A3B00FEA3A2 /* CoinySDK.h */,
@@ -126,6 +129,14 @@
 				FB70E3A720F75A3B00FEA3A2 /* Info.plist */,
 			);
 			path = CoinySDKTests;
+			sourceTree = "<group>";
+		};
+		FB8562DB2223EDF200DF02CF /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				FB8562DC2223EE0900DF02CF /* URLSchemeUtilities.swift */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 		FBC013B820F79E820030D1E3 /* Extensions */ = {
@@ -267,6 +278,7 @@
 			files = (
 				FBC013BC20F79EA70030D1E3 /* String+Extensions.swift in Sources */,
 				FBC013CF20F7BF9C0030D1E3 /* Price.swift in Sources */,
+				FB8562DD2223EE0900DF02CF /* URLSchemeUtilities.swift in Sources */,
 				FBC013D720F7BF9C0030D1E3 /* Transaction.swift in Sources */,
 				FB70E3B220F76E3300FEA3A2 /* Coiny.swift in Sources */,
 				FBC013D520F7BF9C0030D1E3 /* PaymentMethod.swift in Sources */,
