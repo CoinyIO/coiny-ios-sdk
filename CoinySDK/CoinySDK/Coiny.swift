@@ -16,6 +16,7 @@ public class Coiny {
     static var isDevelopment = false
     private static var _authToken : String?
     public static var authToken : String? = {return _authToken}()
+    public static let rootViewController = UINavigationController()
     
     public static func initialize(appId : String , isDevelopment : Bool = true){
         self.appId = appId
@@ -31,11 +32,11 @@ public class Coiny {
     }
     
     public static func login(presentingViewController : UIViewController! , delegate : CoinyLoginViewDelegate?){
-        let navigationController = UINavigationController()
+        
         let coinyViewController = CoinyLoginViewController()
         coinyViewController.delegate = delegate
-        navigationController.viewControllers = [coinyViewController]
-        presentingViewController.present(navigationController, animated: true, completion: nil)
+        rootViewController.viewControllers = [coinyViewController]
+        presentingViewController.present(rootViewController, animated: true, completion: nil)
     }
     
     public static func logout() {
@@ -50,6 +51,10 @@ public class Coiny {
         let auth_token = url.queryParameters?.first( where : { $0.key == "auth_token" } )
         _authToken = auth_token?.value
         return _authToken
+    }
+    
+    public static func dismiss(){
+        rootViewController.dismiss(animated: true)
     }
     
     

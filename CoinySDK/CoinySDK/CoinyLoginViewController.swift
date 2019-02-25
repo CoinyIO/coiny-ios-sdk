@@ -53,7 +53,6 @@ public class CoinyLoginViewController : UIViewController , UIWebViewDelegate{
         let auth_token = request.url?.queryParameters?.first( where : { $0.key == "auth_token" } )
 
         if(auth_token != nil){
-            self.done()
             self.delegate?.coinyLoginDidGetToken(authToken: (auth_token?.value)!)
         }
         return true
