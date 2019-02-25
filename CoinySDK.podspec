@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name             = "CoinySDK"
-  s.version          = "2.0.3"
+  s.version          = "2.0.4"
   s.summary          = "Integrate cryptocurrencies into your iOS application."
   s.description      = <<-DESC
                        Integrate cryptocurrencies into your iOS application with Coiny's fully featured bitcoin payments API. Coiny will allow you to buy/sell cryptocurrencies over your application. For more information https://coiny.io
