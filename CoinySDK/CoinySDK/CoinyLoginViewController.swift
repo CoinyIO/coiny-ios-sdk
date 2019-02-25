@@ -53,7 +53,7 @@ public class CoinyLoginViewController : UIViewController , UIWebViewDelegate{
         let auth_token = request.url?.queryParameters?.first( where : { $0.key == "auth_token" } )
 
         if(auth_token != nil){
-            self.delegate?.coinyLoginDidGetToken(authToken: (auth_token?.value.removingPercentEncoding)!)
+            self.delegate?.coinyLoginDidGetToken(authToken: auth_token!.value.removingPercentEncoding!)
         }
         return true
     }

@@ -49,7 +49,7 @@ public class Coiny {
     
     public static func handleUrl(url : URL) -> String? {
         let auth_token = url.queryParameters?.first( where : { $0.key == "auth_token" } )
-        _authToken = auth_token?.value.removingPercentEncoding
+        _authToken = auth_token!.value.removingPercentEncoding!
         return _authToken
     }
     
